@@ -1,6 +1,3 @@
-const assertEqual = require('./assertEqual');
-
-
 const tail = function(notFirst) {
   console.log(notFirst.slice(1));
 };
