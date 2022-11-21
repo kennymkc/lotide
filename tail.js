@@ -4,5 +4,3 @@ const tail = function (notFirst) {
 };
 
 module.exports = tail;
-
-console.log(tail([1, 2, 3]))
