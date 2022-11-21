@@ -1,5 +1,8 @@
-const tail = function(notFirst) {
-  console.log(notFirst.slice(1));
+const tail = function (notFirst) {
+  let newArr = notFirst.slice(1);
+  return newArr;
 };
 
 module.exports = tail;
+
+console.log(tail([1, 2, 3]))
